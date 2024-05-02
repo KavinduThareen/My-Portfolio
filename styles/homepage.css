@@ -83,7 +83,7 @@ header {
     background-color: rgba(160, 160, 160, 0.63);
     position: absolute;
     top: 32%;
-    left:85%;
+    left:88%;
     transform: translate(-50%, -50%);
     font-weight: bold;
     text-align: center;
@@ -108,7 +108,7 @@ header {
 .name-text {
     position: absolute;
     top: 39%;
-    left: 24%;
+    left: 25%;
     transform: translate(-50%, -50%);
 }
 
@@ -129,7 +129,7 @@ header {
 .body-text{
     position: absolute;
     top: 60%;
-    left: 20%;
+    left: 21.1%;
     transform: translate(-50%, -50%);
 }
 
@@ -145,25 +145,31 @@ header {
 #container button{
 
     margin-top: -27%;
-    margin-left: 8%;
+    margin-left: 8.5%;
     font-size: 22px;
 }
 
 
 /* ===== social-medias   ========= */
 
-#social-medias{
+
+#social-medias {
     position: fixed;
+    float: left;
     width: 70px;
-    height: 300px;
-    border: 1px solid black;
-    margin-top: -35%;
+    height: 350px;
+    border: solid black 1px;
+    border-radius: 200px;
+    background-color: #ffffff 5%;
     margin-left: 1%;
+    margin-top: -35%;
 }
 
 
-/* #social-medias .fa-brands {
-    display: grid;
-    font-size: 30px;
-    align-items: center;
-} */
+#social-medias .fa-brands  {
+    margin-top: 30px;
+    margin-left: 32%;
+    font-size: 25px;
+    color: #000000;
+}
+
