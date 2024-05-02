@@ -1,0 +1,169 @@
+html,
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container-fluid {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.collapse {
+    margin-left: 33%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.collapse li {
+    margin-left: 5%;
+}
+
+/* #main-box {
+    width: 1920px;
+    height: 960px;
+    border-radius: 0% 0% 25% 0%;
+    background-color: rgb(192, 227, 252);
+  } */
+
+  /* ========== container ====================================================== */
+
+#main-box {
+    width: 1920px;
+    height: 960px;
+    border-radius: 0% 50% 80% 50%/50% 0% 60% 30%;
+    background-color: rgb(221, 244, 252);
+    /* background-color: rgb(228, 228, 228); */
+}
+
+#container {
+    position: relative;
+}
+
+#circle img {
+  
+    width: 620px;
+    height: 620px;
+    border-radius: 620%;
+    background-color: azure;
+    margin-top: -50%;
+    margin-left: 53%;
+    position: relative; /* Set to relative for absolute positioning */
+}
+
+.box-1 {
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: rgba(160, 160, 160, 0.63);
+    position: absolute;
+    top: 30%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.box-2 {
+    width: 290px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: rgba(160, 160, 160, 0.63);
+    position: absolute;
+    top: 32%;
+    left:85%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.box-3 {
+    width: 200px;
+    height: 190px;
+    border-radius: 10px;
+    background-color: rgba(160, 160, 160, 0.63);
+    position: absolute;
+    top: 75%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+}
+
+
+
+.name-text {
+    position: absolute;
+    top: 39%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+}
+
+.name-text h4 {
+    font-size: 40px;
+}
+
+.name-text h1 {
+    font-size: 80px;
+    font-family: "Concert One", sans-serif;
+}
+
+/* .name-text h2{
+    font-size: 85px;
+    font-family: "Rubik Doodle Shadow", system-ui;
+} */
+
+.body-text{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.body-text h1{
+    font-size: 30px;
+}
+
+.body-text p{
+    font-size: 20px;
+    width: 400px;
+}
+
+#container button{
+
+    margin-top: -27%;
+    margin-left: 8%;
+    font-size: 22px;
+}
+
+
+/* ===== social-medias   ========= */
+
+#social-medias{
+    position: fixed;
+    width: 70px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: -35%;
+    margin-left: 1%;
+}
+
+
+/* #social-medias .fa-brands {
+    display: grid;
+    font-size: 30px;
+    align-items: center;
+} */
