@@ -23,13 +23,13 @@ header {
 }
 
 .collapse {
-    margin-left: 33%;
+    margin-left: 35%;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .collapse li {
-    margin-left: 5%;
+    margin-left: 3%;
 }
 
 /* #main-box {
@@ -53,7 +53,8 @@ header {
 
 #container {
     position: relative;
-  
+    background-color: rgb(247, 249, 255);
+    height: 958.5px;
 }
 
 #circle img {
@@ -121,8 +122,8 @@ header {
     border-radius: 10px;
     background-color: rgba(139, 185, 255, 0.63);
     position: absolute;
-    top: 75%;
-    left: 55%;
+    top: 68%;
+    left: 52%;
     transform: translate(-50%, -50%);
     transition: transform 0.3s ease; 
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
@@ -187,7 +188,7 @@ header {
     float: left;
     width: 70px;
     height: 350px;
-    border: solid  rgb(184, 237, 255) 2px;
+    border: solid  rgb(115, 218, 252) 2px;
     border-radius: 200px;
     background-color: #ffffff 5%;
     margin-left: 1%;
@@ -223,4 +224,70 @@ header {
 
 .aboutme-table h4{
     margin-left: 92%;
+}
+
+/* =============== servises ======================================= */
+
+#servises{
+  margin-top: 10%;
+  background-color: #f5f5f5;
+  height: 700px;
+}
+
+#servise-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5%;
+    margin-left: 22%;
+    gap: 8%;
+    width: 60%;
+   
+}
+
+#servise-cards .card {
+    transition: transform 0.3s ease; 
+}
+
+#servise-cards .card:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    background-color: #7ea7ff;
+    color: #ffffff;
+}
+
+
+#servises h3{
+    text-align: center;
+    color: rgb(93, 158, 255);
+}
+
+#servises h1{
+    text-align: center;
+}
+
+#servises .card .circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #7ea7ff;
+   
+}
+
+#servises .card .circle i{
+    font-size: 40px;
+    margin-left: 17%;
+    margin-top: 19%;
+}
+
+#servises .card .card-title{
+    margin-top: 5%;
+}
+
+#servises .card .card-text{
+    margin-top: 5%;
+}
+
+/*  ========= projects ================================ */
+
+#projects{
+    margin-top: 20%;
 }
