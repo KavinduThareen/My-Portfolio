@@ -42,15 +42,18 @@ header {
   /* ========== container ====================================================== */
 
 #main-box {
-    width: 1920px;
-    height: 960px;
-    border-radius: 0% 50% 80% 50%/50% 0% 60% 30%;
+    width: 960px;
+    height: 958.5px;
+    float: right;
+    /* border-radius: 10% 0% 50% 50%/0% 30% 30% 30%; */
     background-color: rgb(221, 244, 252);
-    /* background-color: rgb(228, 228, 228); */
+    /* background-color: rgba(0, 255, 170, 0.733); */
+    /* background-color: rgba(74, 252, 192, 0.733); */
 }
 
 #container {
     position: relative;
+  
 }
 
 #circle img {
@@ -68,42 +71,68 @@ header {
     width: 200px;
     height: 120px;
     border-radius: 10px;
-    background-color: rgba(160, 160, 160, 0.63);
+    background-color: rgba(55, 125, 255, 0.507);
     position: absolute;
     top: 30%;
     left: 52%;
+    color: rgb(55, 125, 255);
+    text-align: center;
+    font-size: 32px;
+    font-family: "Itim", cursive;
     transform: translate(-50%, -50%);
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.box-1:hover {
+   transform: translate(-50%, -50%) scale(1.1); /* Scale up on hover */
+}
+
+.box-1 img{
+ width: 55px;
 }
 
 .box-2 {
     width: 290px;
     height: 120px;
     border-radius: 10px;
-    background-color: rgba(160, 160, 160, 0.63);
+    background-color: rgba(157, 187, 243, 0.507);
     position: absolute;
     top: 32%;
     left:88%;
     transform: translate(-50%, -50%);
-    font-weight: bold;
+    color: rgb(87, 87, 87);
     text-align: center;
-    font-size: 35px;
+    font-size: 32px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    font-family: "Itim", cursive;
+    transition: transform 0.3s ease; 
 }
+
+
+.box-2:hover {
+    transform: translate(-50%, -50%) scale(1.1); /* Scale up on hover */
+ }
+ 
 
 .box-3 {
     width: 200px;
     height: 190px;
     border-radius: 10px;
-    background-color: rgba(160, 160, 160, 0.63);
+    background-color: rgba(139, 185, 255, 0.63);
     position: absolute;
     top: 75%;
     left: 55%;
     transform: translate(-50%, -50%);
+    transition: transform 0.3s ease; 
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
 }
 
 
+.box-3:hover {
+    transform: translate(-50%, -50%) scale(1.1); /* Scale up on hover */
+ }
+ 
 
 .name-text {
     position: absolute;
@@ -158,7 +187,7 @@ header {
     float: left;
     width: 70px;
     height: 350px;
-    border: solid black 1px;
+    border: solid  rgb(184, 237, 255) 2px;
     border-radius: 200px;
     background-color: #ffffff 5%;
     margin-left: 1%;
@@ -173,3 +202,25 @@ header {
     color: #000000;
 }
 
+
+/*  ------- about us =-------------------- */
+
+#about-me{
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+.paragraf p{
+   margin-top: 5%;
+   width: 700px;
+   font-size: 20px;
+}
+
+.aboutme-table{
+    margin-top: 5%;
+    width: 700px;
+}
+
+.aboutme-table h4{
+    margin-left: 92%;
+}
