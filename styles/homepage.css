@@ -249,7 +249,7 @@ header {
 #servises{
   margin-top: 10%;
   background-color: #f5f5f5;
-  height: 700px;
+  height: 750px;
 }
 
 #servise-cards{
@@ -257,7 +257,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
     margin-top: 5%;
     margin-left: 22%;
-    gap: 8%;
+    gap: 10%;
     width: 60%;
    
 }
