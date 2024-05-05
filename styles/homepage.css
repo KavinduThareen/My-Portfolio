@@ -204,7 +204,7 @@ header {
 }
 
 
-/*  ------- about us =-------------------- */
+/*  ------- about me =-------------------- */
 
 #about-me{
     margin-left: 50%;
@@ -217,14 +217,32 @@ header {
    font-size: 20px;
 }
 
-.aboutme-table{
+/* .aboutme-table{
     margin-top: 5%;
     width: 700px;
 }
 
 .aboutme-table h4{
     margin-left: 92%;
+} */
+
+.aboutme-table {
+    margin-top: 5%;
+    width: 700px;
 }
+
+.progress {
+    height: 25px;
+    margin-bottom: 20px;
+    overflow: hidden; /* Hide overflowing content from progress bars */
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0;
+    transition: width 2s ease-in-out; /* Animation duration and easing */
+}
+
 
 /* =============== servises ======================================= */
 
@@ -351,69 +369,13 @@ header {
         transform: translateY(0);
     }
 }
-/* 
-@keyframes count-up {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-#dashboard {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    margin-top: 150px;
-}
-
-.dashboard-text {
-    text-align: center;
-    margin: 0 20px;
-}
-
-#plus {
-    margin-left: 50%;
-    font-size: 20px;
-    color: #3273ff;
-    position: relative;
-    top: -35px;
-}
-
-#icon {
-    font-size: 75px;
-    width: 320px;
-}
-
-.dashboard-text h3 {
-    margin-top: 10px; 
-    font-size: 30px;
-    color: #3273ff;
-    animation: count-up 1s ease-in-out forwards; 
-    opacity: 0; 
-}
-
-
-@keyframes count-up {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-} */
 
 
 /*  ========= projects ================================ */
 
 #projects {
-    background-color: #f5f5f5;
-    height: 950px;
+    background-color: #f3f6fd;
+    height: 920px;
 }
 
 

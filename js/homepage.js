@@ -17,3 +17,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 20); // Change number every 20 milliseconds
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const progressBars = document.querySelectorAll('.progress-bar');
+
+    // Animate progress bars on page load
+    progressBars.forEach(progressBar => {
+        const targetWidth = parseInt(progressBar.parentNode.getAttribute('aria-valuenow'));
+        progressBar.style.width = targetWidth + '%';
+    });
+});
