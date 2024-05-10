@@ -39,7 +39,7 @@ header {
     background-color: rgb(192, 227, 252);
   } */
 
-  /* ========== container ====================================================== */
+/* ========== container ====================================================== */
 
 #main-box {
     width: 960px;
@@ -58,14 +58,15 @@ header {
 }
 
 #circle img {
-  
+
     width: 620px;
     height: 620px;
     border-radius: 620%;
     background-color: azure;
     margin-top: -50%;
     margin-left: 53%;
-    position: relative; /* Set to relative for absolute positioning */
+    position: relative;
+    /* Set to relative for absolute positioning */
 }
 
 .box-1 {
@@ -82,15 +83,17 @@ header {
     font-family: "Itim", cursive;
     transform: translate(-50%, -50%);
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease; /* Smooth transition for transform */
+    transition: transform 0.3s ease;
+    /* Smooth transition for transform */
 }
 
 .box-1:hover {
-   transform: translate(-50%, -50%) scale(1.1); /* Scale up on hover */
+    transform: translate(-50%, -50%) scale(1.1);
+    /* Scale up on hover */
 }
 
-.box-1 img{
- width: 55px;
+.box-1 img {
+    width: 55px;
 }
 
 .box-2 {
@@ -100,21 +103,22 @@ header {
     background-color: rgba(157, 187, 243, 0.507);
     position: absolute;
     top: 32%;
-    left:88%;
+    left: 88%;
     transform: translate(-50%, -50%);
     color: rgb(87, 87, 87);
     text-align: center;
     font-size: 32px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
     font-family: "Itim", cursive;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
 
 
 .box-2:hover {
-    transform: translate(-50%, -50%) scale(1.1); /* Scale up on hover */
- }
- 
+    transform: translate(-50%, -50%) scale(1.1);
+    /* Scale up on hover */
+}
+
 
 .box-3 {
     width: 200px;
@@ -125,15 +129,17 @@ header {
     top: 68%;
     left: 52%;
     transform: translate(-50%, -50%);
-    transition: transform 0.3s ease; 
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+    transition: transform 0.3s ease;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    /* Adjust the values as needed */
 }
 
 
 .box-3:hover {
-    transform: translate(-50%, -50%) scale(1.1); /* Scale up on hover */
- }
- 
+    transform: translate(-50%, -50%) scale(1.1);
+    /* Scale up on hover */
+}
+
 
 .name-text {
     position: absolute;
@@ -156,23 +162,23 @@ header {
     font-family: "Rubik Doodle Shadow", system-ui;
 } */
 
-.body-text{
+.body-text {
     position: absolute;
     top: 60%;
     left: 21.1%;
     transform: translate(-50%, -50%);
 }
 
-.body-text h1{
+.body-text h1 {
     font-size: 30px;
 }
 
-.body-text p{
+.body-text p {
     font-size: 20px;
     width: 400px;
 }
 
-#container button{
+#container button {
 
     margin-top: -27%;
     margin-left: 8.5%;
@@ -188,7 +194,7 @@ header {
     float: left;
     width: 70px;
     height: 350px;
-    border: solid  rgb(115, 218, 252) 2px;
+    border: solid rgb(115, 218, 252) 2px;
     border-radius: 200px;
     background-color: #ffffff 5%;
     margin-left: 1%;
@@ -196,7 +202,7 @@ header {
 }
 
 
-#social-medias .fa-brands  {
+#social-medias .fa-brands {
     margin-top: 30px;
     margin-left: 32%;
     font-size: 25px;
@@ -206,15 +212,15 @@ header {
 
 /*  ------- about me =-------------------- */
 
-#about-me{
+#about-me {
     margin-left: 50%;
     margin-top: 5%;
 }
 
-.paragraf p{
-   margin-top: 5%;
-   width: 700px;
-   font-size: 20px;
+.paragraf p {
+    margin-top: 5%;
+    width: 700px;
+    font-size: 20px;
 }
 
 /* .aboutme-table{
@@ -234,73 +240,81 @@ header {
 .progress {
     height: 25px;
     margin-bottom: 20px;
-    overflow: hidden; /* Hide overflowing content from progress bars */
+    overflow: hidden;
+    /* Hide overflowing content from progress bars */
 }
 
 .progress-bar {
     height: 100%;
     width: 0;
-    transition: width 2s ease-in-out; /* Animation duration and easing */
+    transition: width 2s ease-in-out;
+    /* Animation duration and easing */
 }
 
 
 /* =============== servises ======================================= */
 
-#servises{
-  margin-top: 10%;
-  background-color: #f5f5f5;
-  height: 750px;
+#servises {
+    margin-top: 10%;
+    background-color: #f5f5f5;
+    height: 750px;
 }
 
-#servise-cards{
+
+#servise-cards .card {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1); /* Box shadow properties */
+}
+
+#servise-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 5%;
-    margin-left: 22%;
+    margin-left: 14.5%;
     gap: 10%;
     width: 60%;
-   
+
 }
 
 #servise-cards .card {
-    transition: transform 0.7s ease; 
+    transition: transform 0.7s ease;
 }
 
 #servise-cards .card:hover {
-    transform: scale(1.1); /* Scale up on hover */
+    transform: scale(1.1);
+    /* Scale up on hover */
     background-color: #7ea7ff;
     color: #ffffff;
 }
 
 
-#servises h3{
+#servises h3 {
     text-align: center;
     color: rgb(93, 158, 255);
 }
 
-#servises h1{
+#servises h1 {
     text-align: center;
 }
 
-#servises .card .circle{
+#servises .card .circle {
     width: 70px;
     height: 70px;
     border-radius: 20px;
     background-color: #7ea7ff;
-   
+
 }
 
-#servises .card .circle i{
+#servises .card .circle i {
     font-size: 40px;
     margin-left: 17%;
     margin-top: 19%;
 }
 
-#servises .card .card-title{
+#servises .card .card-title {
     margin-top: 5%;
 }
 
-#servises .card .card-text{
+#servises .card .card-text {
     margin-top: 5%;
 }
 
@@ -311,13 +325,14 @@ header {
         opacity: 0;
         transform: translateY(-20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
-#dashboard{
+#dashboard {
     display: flex;
     margin-left: 300px;
     margin-top: 150px;
@@ -327,43 +342,44 @@ header {
     margin-left: 50%;
     font-size: 25px;
     color: #3273ff;
-    position: relative; 
-    top: -39px; 
+    position: relative;
+    top: -39px;
 }
 
 
-#icon{
+#icon {
     font-size: 90px;
     width: 370px;
-   
+
 }
 
-.dashboard-text h3{
-   margin-left: 35%;
-   margin-top: -25%;
-   font-size: 35px;
-   color: #0f5bff;
+.dashboard-text h3 {
+    margin-left: 35%;
+    margin-top: -25%;
+    font-size: 35px;
+    color: #0f5bff;
 }
 
-.dashboard-text h4{
+.dashboard-text h4 {
     margin-left: 35%;
     margin-top: -7%;
     font-size: 15px;
- 
- }
 
- .dashboard-text h5{
+}
+
+.dashboard-text h5 {
 
     margin-left: 35%;
     font-size: 15px;
-   
- }
+
+}
 
 @keyframes count-up {
     from {
         opacity: 0;
         transform: translateY(-20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -374,28 +390,28 @@ header {
 /*  ========= projects ================================ */
 
 #projects {
-    background-color: #f3f6fd;
-    height: 920px;
+    background-color: #f5f5f5;
+    height: 910px;
 }
 
 
-#projects h4{
+#projects h4 {
     margin-top: 8%;
     color: #4e86ff;
     text-align: center;
 }
 
-#projects h1{
-    
+#projects h1 {
+
     /* margin-left: 11%; */
     text-align: center;
 }
 
-#projrct-cards{
+#projrct-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 80%;
-    margin-left: 13%;
+    width: 85%;
+    margin-left: 10%;
     margin-top: 4%;
     text-align: center;
     cursor: pointer;
@@ -403,13 +419,111 @@ header {
 
 #projects button {
     margin-top: 3%;
-    margin-left: 47%;
+    margin-left: 46%;
 }
 
 /* ====================================================== */
 
+#container-1{
+    /* background-color: #7ea7ff; */
+    background-image: url(/Assest/.jpg);
+  
+    height: 700px;
+    margin-top: 6%;
+}
+
+#choise-servise {
+    margin-top: 5%;
+}
+
+#choise-servise h4 {
+    color: #4e86ff;
+    text-align: center;
+}
+
+#choise-servise h1 {
+    text-align: center;
+}
 
 
-#choise-servise{
-    margin-top: 7%;
+/* #Servises-Provide-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 72%;
+    margin-top: 4%;
+    margin-left: 16%;
+} */
+
+
+
+#Servises-Provide-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 72%;
+    margin-top: 4%;
+    margin-left: 16%;
+}
+
+#Servises-Provide-list .card {
+    box-shadow: 18px 18px 18px rgba(0, 0, 0, 0.1); /* Box shadow properties */
+}
+
+
+
+#Servises-Provide-list h4 {
+
+    color: #0f5bff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#Servises-Provide-list h3 {
+    color: #919191;
+    font-size: 18px;
+}
+
+#Servises-Provide-list h2 {
+   font-size: 15px;
+   
+}
+
+
+
+/* ======================================= */
+#experiance {
+    margin-top: 5%;
+}
+
+#experiance h4{
+    color: #7ea7ff;
+    text-align: center;
+}
+
+#experiance h1{
+    text-align: center;
+}
+
+.line{
+    margin-top: 3%;
+    margin-left: 50%;
+    border-radius: 5%;
+    width: 6px;
+    height: 600px;
+    background-color: #0f5bff;
+}
+
+.circle-1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 48.9%;
+    margin-top: -26%;
+    background-color: #3273ff;
+}
+
+
+
+/* ================================================= */
+#hi{
+    margin-top: 30%;
 }

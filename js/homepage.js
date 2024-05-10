@@ -1,3 +1,7 @@
+
+
+// dashboard numbers change code
+
 document.addEventListener('DOMContentLoaded', function() {
     const h3Elements = document.querySelectorAll('.dashboard-text h3');
 
@@ -18,6 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+
+// hire me fill 
 
 document.addEventListener('DOMContentLoaded', function() {
     const progressBars = document.querySelectorAll('.progress-bar');
