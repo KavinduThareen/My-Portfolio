@@ -190,7 +190,7 @@ header {
 
 
 #social-medias {
-    position: fixed;
+    position: relative;
     float: left;
     width: 70px;
     height: 350px;
@@ -198,7 +198,7 @@ header {
     border-radius: 200px;
     background-color: #ffffff 5%;
     margin-left: 1%;
-    margin-top: -35%;
+    margin-top: -34.5%;
 }
 
 
@@ -489,7 +489,7 @@ header {
 
 
 
-/* ======================================= */
+/* ================== experiance  ==================== */
 #experiance {
     margin-top: 5%;
 }
@@ -518,9 +518,16 @@ header {
     border-radius: 50px;
     margin-left: 48.8%;
     margin-top: -39%;
-    background-color: #3273ff;
+    background-color: #ffffff;
+    border: 4px solid rgb(8, 4, 241);
 }
 
+.circle-1 h4{
+    margin-left: 23%;
+    margin-top: 15%;
+    font-size: 20px;
+    font-weight: bold;
+}
 
 .circle-2 {
     width: 50px;
@@ -528,7 +535,15 @@ header {
     border-radius: 50px;
     margin-left: 48.8%;
     margin-top: 12%;
-    background-color: #62ac40;
+    background-color: #ffffff;
+    border: 4px solid rgb(8, 4, 241);
+}
+
+.circle-2 h4{
+    margin-left: 23%;
+    margin-top: 15%;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
@@ -538,47 +553,111 @@ header {
     border-radius: 50px;
     margin-left: 48.8%;
     margin-top: 14%;
-    background-color: #ca4625;
+    background-color: #ffffff;
+    border: 4px solid rgb(8, 4, 241);
 }
 
+.circle-3 h4{
+    margin-left: 23%;
+    margin-top: 15%;
+    font-size: 20px;
+    font-weight: bold;
+}
 
-#cd-1{
+#cd-1 {
     margin-left: 28%;
     margin-top: -6%;
+    color: black; /* Initial text color */
+    background-color: transparent; /* Initial background color */
+    transition: color 0.3s ease, background-color 0.5s ease; /* Smooth transition for color and background-color */
 }
+
+#cd-1:hover {
+    color: white; /* Text color on hover */
+    background-color: rgb(59, 144, 255); /* Background color on hover */
+}
+
 
 #cd-2{
     margin-left: 53%;
     margin-top: -27%;
+    color: black; /* Initial text color */
+    background-color: transparent; /* Initial background color */
+    transition: color 0.3s ease, background-color 0.5s ease;
+}
+#cd-2:hover {
+    color: white; /* Text color on hover */
+    background-color: rgb(59, 144, 255); /* Background color on hover */
 }
 
 
 #cd-3{
     margin-left: 28%;
     margin-top: -24%;
+    color: black; /* Initial text color */
+    background-color: transparent; /* Initial background color */
+    transition: color 0.3s ease, background-color 0.5s ease;
+}
+#cd-3:hover {
+    color: white; /* Text color on hover */
+    background-color: rgb(59, 144, 255); /* Background color on hover */
 }
 
-
 #experiance-text .experiance-text-1{
-
     margin-left: 53%;
     margin-top: 3%;
 }
 
 #experiance-text .experiance-text-2{
-
     margin-left: 53%;
-    margin-top: -36%;
+    margin-top: -35%;
 }
 
 
 #experiance-text .experiance-text-3{
-    color: #0f5bff;
-    margin-left: 35%;
-    margin-top: 11%;
+    margin-left: 38%;
+    margin-top: 12%;
 }
 
 /* ================================================= */
-#hi{
-    margin-top: 70%;
+#hire-me-box{
+    margin-top: 15%;
+    width: 100%;
+    height: 400px;
+    background-color: #5a8eff;
+    color: white;
+}
+
+
+#hire-me-box h1 {
+    position: relative; /* or position: absolute; */
+    top: 20%; /* Adjust this value as needed */
+    left: 20%;
+ }
+  
+#hire-me-box p {
+    position: relative; /* or position: absolute; */
+    top: 29%; /* Adjust this value as needed */
+    left: 20%;
+    width: 500px;
+ }
+ 
+ #hire-me-box button {
+    position: relative; /* or position: absolute; */
+    top: -12%; /* Adjust this value as needed */
+    left: 69%;
+    width: 320px;
+    height: 80px;
+ }
+
+
+
+
+
+/*  ============ footer ========================== */
+
+footer{
+     margin-top: 10%;
+    background-color: #000000;
+    height: 500px;
 }
