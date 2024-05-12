@@ -507,8 +507,8 @@ header {
     margin-top: 3%;
     margin-left: 50%;
     border-radius: 5%;
-    width: 6px;
-    height: 600px;
+    width: 4px;
+    height: 850px;
     background-color: #0f5bff;
 }
 
@@ -516,14 +516,69 @@ header {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 48.9%;
-    margin-top: -26%;
+    margin-left: 48.8%;
+    margin-top: -39%;
     background-color: #3273ff;
 }
 
 
+.circle-2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 48.8%;
+    margin-top: 12%;
+    background-color: #62ac40;
+}
+
+
+.circle-3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 48.8%;
+    margin-top: 14%;
+    background-color: #ca4625;
+}
+
+
+#cd-1{
+    margin-left: 28%;
+    margin-top: -6%;
+}
+
+#cd-2{
+    margin-left: 53%;
+    margin-top: -27%;
+}
+
+
+#cd-3{
+    margin-left: 28%;
+    margin-top: -24%;
+}
+
+
+#experiance-text .experiance-text-1{
+
+    margin-left: 53%;
+    margin-top: 3%;
+}
+
+#experiance-text .experiance-text-2{
+
+    margin-left: 53%;
+    margin-top: -36%;
+}
+
+
+#experiance-text .experiance-text-3{
+    color: #0f5bff;
+    margin-left: 35%;
+    margin-top: 11%;
+}
 
 /* ================================================= */
 #hi{
-    margin-top: 30%;
+    margin-top: 70%;
 }
