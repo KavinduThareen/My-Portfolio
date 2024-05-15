@@ -282,8 +282,8 @@ header {
 #servise-cards .card:hover {
     transform: scale(1.1);
     /* Scale up on hover */
-    background-color: #7ea7ff;
-    color: #ffffff;
+    /* background-color: #7ea7ff;
+    color: #ffffff; */
 }
 
 
@@ -296,19 +296,60 @@ header {
     text-align: center;
 }
 
-#servises .card .circle {
-    width: 70px;
-    height: 70px;
-    border-radius: 20px;
-    background-color: #7ea7ff;
+#servises .card .circle1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #fffb0049;
 
 }
 
-#servises .card .circle i {
-    font-size: 40px;
-    margin-left: 17%;
+#servises .card .circle2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #f73c3c49;
+
+}
+
+#servises .card .circle3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #001aff49;
+
+}
+
+#servises .card .circle4 {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #03ff1049;
+
+}
+
+#servises .card .circle5 {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #ff008049;
+
+}
+
+#servises .card .circle6 {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #ae00ff49;
+
+}
+
+#servises .card .c-img {
+    width: 39px;
+    margin-left: 16.5%;
     margin-top: 19%;
 }
+
 
 #servises .card .card-title {
     margin-top: 5%;
