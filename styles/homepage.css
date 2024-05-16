@@ -50,7 +50,7 @@ header {
 
 #container {
     position: relative;
-    background-color: rgb(247, 249, 255);
+    background-color: rgb(245, 245, 245);
     height: 958.5px;
 }
 
@@ -63,7 +63,8 @@ header {
     margin-top: -50%;
     margin-left: 53%;
     position: relative;
-    /* Set to relative for absolute positioning */
+    box-shadow: 0 0 900px #5a8eff;
+    
 }
 
 .box-1 {
@@ -220,22 +221,13 @@ header {
     font-size: 20px;
 }
 
-/* .aboutme-table{
-    margin-top: 5%;
-    width: 700px;
-}
-
-.aboutme-table h4{
-    margin-left: 92%;
-} */
-
 .aboutme-table {
-    margin-top: 5%;
+    margin-top: 4%;
     width: 700px;
 }
 
 .progress {
-    height: 25px;
+    height: 15px;
     margin-bottom: 20px;
     overflow: hidden;
     /* Hide overflowing content from progress bars */
@@ -245,16 +237,15 @@ header {
     height: 100%;
     width: 0;
     transition: width 2s ease-in-out;
-    /* Animation duration and easing */
 }
 
 
 #my-img img{
-    margin-top: -31.5%;
+    margin-top: -30%;
     border-radius: 4%;
     margin-left: 11%;
     border: 10px solid #5a8eff;
-    box-shadow: 0 0px 690px 20px  #5a8eff;
+    box-shadow: 0 0 990px #5a8eff;
 }
 
 
@@ -262,7 +253,7 @@ header {
 /* =============== servises ======================================= */
 
 #servises {
-    margin-top: 8%;
+    margin-top: 8.5%;
     background-color: #f5f5f5;
     height: 750px;
 }
@@ -288,9 +279,6 @@ header {
 
 #servise-cards .card:hover {
     transform: scale(1.1);
-    /* Scale up on hover */
-    /* background-color: #7ea7ff;
-    color: #ffffff; */
 }
 
 
