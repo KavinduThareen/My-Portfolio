@@ -34,3 +34,78 @@ document.addEventListener('DOMContentLoaded', function() {
         progressBar.style.width = targetWidth + '%';
     });
 });
+
+
+
+
+
+
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     const itemsPerPage = 3; // Number of items per page
+//     let currentPage = 1; // Current page
+//     const projects = document.querySelectorAll('.card'); // Select all project cards
+//     const totalPages = Math.ceil(projects.length / itemsPerPage); // Calculate total pages
+  
+//     // Function to show/hide items based on the current page
+//     function updateDisplay() {
+//       projects.forEach((project, index) => {
+//         if (index >= (currentPage - 1) * itemsPerPage && index < currentPage * itemsPerPage) {
+//           project.style.display = 'block';
+//         } else {
+//           project.style.display = 'none';
+//         }
+//       });
+  
+//       // Update pagination buttons
+//       const previousBtn = document.getElementById("previous");
+//       const nextBtn = document.getElementById("next");
+  
+//       previousBtn.classList.toggle('disabled', currentPage === 1);
+//       nextBtn.classList.toggle('disabled', currentPage === totalPages);
+//     }
+  
+//     // Initial display update
+//     updateDisplay();
+  
+//     // Pagination button event listeners
+//     document.getElementById("previous").addEventListener("click", function(event) {
+//       event.preventDefault();
+//       if (currentPage > 1) {
+//         currentPage--;
+//         updateDisplay();
+//       }
+//     });
+  
+//     document.getElementById("next").addEventListener("click", function(event) {
+//       event.preventDefault();
+//       if (currentPage < totalPages) {
+//         currentPage++;
+//         updateDisplay();
+//       }
+//     });
+  
+//     // Generate pagination links dynamically
+//     const paginationContainer = document.querySelector(".pagination");
+//     for (let i = 1; i <= totalPages; i++) {
+//       const pageItem = document.createElement('li');
+//       pageItem.classList.add('page-item');
+//       const pageLink = document.createElement('a');
+//       pageLink.classList.add('page-link');
+//       pageLink.href = '#';
+//       pageLink.textContent = i;
+//       pageItem.appendChild(pageLink);
+//       paginationContainer.insertBefore(pageItem, nextBtn.parentNode); // Insert before the "Next" button
+//     }
+  
+//     // Page number click event listeners
+//     const pageLinks = document.querySelectorAll('.page-link');
+//     pageLinks.forEach(link => {
+//       link.addEventListener('click', function(event) {
+//         event.preventDefault();
+//         currentPage = parseInt(this.textContent);
+//         updateDisplay();
+//       });
+//     });
+//   });
+  
