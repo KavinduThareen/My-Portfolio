@@ -733,15 +733,11 @@ footer{
     #container {
         width: 100%;
         height: 855.5px;
-        background-image: url(/Assest/wallpaperbetter.com_1536x864.jpg);
+        background-image: url(/Assest/wallpaperflare.com_wallpaper\ \(17\).jpg);
         background-size: cover;
         background-position: center;
     }
     
-
-
-
-
 
 
     #circle img {
@@ -749,10 +745,20 @@ footer{
         height: 200px;
         border-radius: 50%; /* Changed from 200% to 50% for a perfect circle */
         background-color: azure;
-        margin-top: 50%;
+        margin-top: 32%;
         margin-left: 34%;
         border: 10px solid rgb(37, 86, 247);
         box-shadow: 100px 100px 900px rgba(1, 5, 243, 0.5); /* Added box-shadow */
+    }
+
+    #cover-box{
+        display: block;
+        background-color: rgba(131, 238, 252, 0.363);
+        border-radius: 5%;
+        width: 400px;
+        height: 540px;
+        margin-left: 17%;
+        margin-top: -43%;
     }
     
 
@@ -763,7 +769,7 @@ footer{
     
     .name-text h2 {
         display: block;
-        margin-top: -53%;
+        margin-top: -55%;
         font-weight: bold;
         left: 55%;
         position: absolute; /* Added position absolute to the h2 element */
@@ -791,18 +797,23 @@ footer{
         top: 60%;
         left: 21.1%;
         transform: translate(-50%, -50%); */
-        display: none;
+        display: block;
     }
     
     .body-text h1 {
-        /* font-size: 30px; */
-        display: none;
+        position: relative;
+        font-size: 20px;
+        display: block;
+        left: 56%;
+        margin-top: 10%;
     }
     
     .body-text p {
-        /* font-size: 20px;
-        width: 400px; */
-        display: none;
+        display: block;
+        font-size: 17px;
+        width: 290px;
+        margin-left: 60%;
+        margin-top: 10%;
     }
     
     #container button {
@@ -824,7 +835,12 @@ footer{
     }
 
     #social-medias{
-        display: none;
+        display: block;
+        margin-top: -44%;
+        margin-left: 27%;
+        gap: 50%;
+        display: flex;
+        border: none;
     }
 }
 
