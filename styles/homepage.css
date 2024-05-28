@@ -279,6 +279,7 @@ header {
 
 #servise-cards .card {
     transition: transform 0.7s ease;
+    width: 25rem;
 }
 
 #servise-cards .card:hover {
@@ -446,6 +447,10 @@ header {
     text-align: center;
 }
 
+#projrct-cards .card{
+    width: 29rem;
+}
+
 #projrct-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -467,7 +472,7 @@ header {
 
 
 
-/* ====================================================== */
+/* ================ experiance ====================================== */
 
 #container-1{
     /* background-color: #7ea7ff; */
@@ -535,6 +540,9 @@ header {
 
 
 /* ================== experiance  ==================== */
+
+
+
 #experiance {
     margin-top: 5%;
 }
@@ -665,6 +673,8 @@ header {
 }
 
 /* ======================= hire me ========================== */
+
+
 #hire-me-box{
     margin-top: 15%;
     width: 100%;
@@ -842,7 +852,242 @@ footer{
         display: flex;
         border: none;
     }
+
+
+/* ====  about me ================================================= */
+
+
+    #my-img{
+        display: none;
+    }
+
+    #about-me {
+        margin-top: 20%;
+        margin-left: -5%;
+    }
+    
+
+    #about-me p{
+        font-size: 19px;
+        width: 450px;
+        text-align: center;
+        margin-left: 17%;
+       
+    }
+
+
+    #about-me h4{
+        font-size: 30px;
+        margin-left: 39%;
+    }
+
+    #about-me h1{
+        font-size: 50px;
+        margin-left: 20%;
+    }
+
+    #about-me .aboutme-table{
+        width: 510px;
+        margin-left: 12.5%;
+        margin-top: 10%;
+    }
+
+
+/*  ================================== serises ====== */
+
+    #servises{
+        height: 920px;
+    }
+
+    #servise-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        
+    }
+
+    #servise-cards .card{
+        width: 15rem;
+        margin-left: -18%;
+        transition: transform 0.7s ease;
+    }
+
+    #servise-cards .card:hover {
+        transform: scale(1.1);
+    }
+
+
+/*  ======== dash board ================ */
+
+    @keyframes count-up {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+
+    #dashboard {
+        margin-top: 100px;
+    }
+
+    #icon {
+        font-size: 50px;
+        width: 130px;
+        margin-left: -165%;
+    }
+
+
+    .dashboard-text h3 {
+        margin-left: -163%;
+        margin-top: 10%;
+
+    }
+
+
+    .dashboard-text h4 {
+      display: none;
+    
+    }
+
+    
+    .dashboard-text h5 {
+
+        display: none;
+
+    }
+
+    #plus {
+        margin-left: -117%;
+        font-size: 25px;
+        color: #3273ff;
+        position: relative;
+        top: -39px;
+    }
+
+    @keyframes count-up {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+    }
+
+
+    /*  === projexts ======================================= */
+
+    #projects {
+        background-color: #f5f5f5;
+        height: 1590px;
+    }
+
+    #projrct-cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 11.5%;
+    }
+
+    #projrct-cards .card{
+       margin-top: 5%;
+    }
+
+    #projects button {
+        margin-top: 5%;
+        margin-left: 40%;
+    }
+
+
+    /* === experiance  =======  */
+
+
+    #container-2 {
+        display: none;
+    }
+    
+    .line{
+         display: none;
+    }
+
+    .circle-1 {
+        display: none;
+    }
+
+    .circle-2 {
+        display: none;
+    }
+
+    .circle-3 {
+        display: none;
+    }
+
+
+
+    /* == hire me ================================ */
+
+    #hire-me-box{
+        height: 450px;
+    }
+
+    #hire-me-box button {
+        position: relative; /* or position: absolute; */
+        top: 33%; /* Adjust this value as needed */
+        left: 33%;
+        width: 220px;
+        height: 80px;
+        font-weight: 600;
+     }
+    
+     #hire-me-box p {
+       text-align: center;
+       margin-left: -10%;
+     }
+
+     #hire-me-box h1 {
+       text-align: center;
+       margin-left: -35%;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
