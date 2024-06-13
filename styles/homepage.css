@@ -724,20 +724,807 @@ footer{
 /*  ======================= = media qures ======================================================== */
 
 
-@media screen and (min-width: 575px) and (max-width: 600px) {
+
+@media only screen and (max-width: 1280px) {
+
+    html {
+        font-size: 14px;
+    }
+
+
+
+    #main-box{
+        width: 710px;
+        height: 958.5px;
+        float: right;
+        background-color: rgb(233, 247, 252);
+    }
+
+    #circle img {
+
+        width: 520px;
+        height: 520px;
+        border-radius: 620%;
+        background-color: rgb(255, 255, 255);
+        margin-top: -67%;
+        margin-left: 53%;
+        position: relative;
+       
+
+    }
+
+
+    #container {
+
+        background-color: rgb(245, 245, 245);
+    }
+
+    .box-1 {
+
+        display: none;
+    }
+
+    .box-2 {
+
+        display: none;
+    }
+
+    .box-3 {
+
+        display: none;
+    }
+
+    .name-text {
+        position: absolute;
+        top: 39%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+    }
+
+    .name-text h4 {
+      
+        font-size: 30px;
+        margin-left: -12%;
+        margin-top: 13%;
+    }
+    
+    .name-text h2 {
+        display: none;
+    }
+    
+    #social-medias {
+
+    display: none;
+    }
+
+    .name-text h1 {
+        font-size: 60px;
+        font-family: "Concert One", sans-serif;
+        margin-left: -12%;
+        margin-top: 13%;
+    }
+    
+
+    #container button {
+
+        margin-top: -36%;
+        margin-left: 3%;
+        font-size: 22px;
+    }
+    
+
+
+
+    /* ----- about me --------- */
+
+    #my-img img{
+        margin-top: -39%;
+        border-radius: 4%;
+        margin-left: 5%;
+        border: 10px solid #5a8eff;
+        box-shadow: 0 0 0px #5a8eff;
+    }
+
+    .paragraf p {
+        margin-top: 5%;
+        width: 630px;
+        font-size: 20px;
+    }
+
+    .aboutme-table {
+        margin-top: 4%;
+        width: 600px;
+    }
+    
+    /*  -- servisdss ---------------------------- */
+
+    #servises {
+        margin-top: 8.5%;
+        background-color: #f5f5f5;
+        height: 650px;
+    }
+
+    #servise-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 5%;
+        margin-left: 3.2%;
+        gap: 10%;
+        width: 60%;
+    
+    }
+    
+
+
+/* --------------------------------dashboard ------------------------------------------- */
+
+
+
+    #icon {
+        font-size: 70px;
+        width: 270px;
+        margin-left: -53%;
+    }
+
+    .dashboard-text h3 {
+        margin-left: -15%;
+
+    }
+
+    .dashboard-text h4 {
+        margin-left: -14%;
+
+    }
+
+    .dashboard-text h5 {
+        margin-left: -14%;
+
+    }
+
+    #plus {
+        margin-left: 9%;
+
+    }
+
+
+
+
+
+/* ---- project ---------------------------------------------------- */
+
+    #projects {
+        height: 690px;
+    }
+
+    #projrct-cards {
+        width: 90%;
+        margin-left: 6.5%;
+        margin-top: 5%;
+        
+    }
+
+    #projrct-cards .card{
+        width: 25rem;
+    }
+    
+
+
+/* ----- expirens ----------------------------------- */
+
+
+    .circle-1 {
+        margin-left: 48%;
+        margin-top: -59%;
+
+    }
+
+    .circle-2 {
+        margin-left: 48%;
+        
+    }
+
+    .circle-3 {
+        margin-left: 48%;
+        
+    }
+
+    #cd-1 {
+
+        margin-left: 20%;
+        margin-top: -6%;
+
+    }
+
+    #cd-3 {
+
+        margin-left: 20%;
+        margin-top: -32%;
+
+    }
+
+    #cd-2 {
+
+        margin-left: 55%;
+        margin-top: -32%;
+
+    }
+
+    #experiance-text .experiance-text-1{
+        margin-left: 54%;
+        margin-top: 3%;
+    }
+
+    #experiance-text .experiance-text-2{
+        margin-left: 54%;
+        margin-top: -39%;
+    }
+
+    #experiance-text .experiance-text-3{
+        margin-left: 34%;
+        margin-top: 12%;
+    }
+
+
+/*  ---- hire me ------------------------------------- */
+
+
+#hire-me-box{
+    margin-top: 30%;
+
+}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    html {
+        font-size: 14px;
+    }
+
+
+
+    #main-box{
+        width: 710px;
+        height: 958.5px;
+        float: right;
+        background-color: rgb(233, 247, 252);
+    }
+
+    #circle img {
+
+        width: 490px;
+        height: 490px;
+        border-radius: 620%;
+        background-color: rgb(255, 255, 255);
+        margin-top: -88%;
+        margin-left: 48%;
+        position: relative;
+       
+
+    }
+
+
+    #container {
+
+        background-color: rgb(245, 245, 245);
+    }
+
+    .box-1 {
+
+        display: none;
+    }
+
+    .box-2 {
+
+        display: none;
+    }
+
+    .box-3 {
+
+        display: none;
+    }
+
+    .name-text {
+        position: absolute;
+        top: 39%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+    }
+
+    .name-text h4 {
+      
+        font-size: 30px;
+        margin-left: -12%;
+        margin-top: 15%;
+    }
+    
+    .name-text h2 {
+        display: none;
+    }
+    
+    #social-medias {
+
+    display: none;
+    }
+
+    .name-text h1 {
+        font-size: 50px;
+        font-family: "Concert One", sans-serif;
+        margin-left: -12%;
+        margin-top: 1%;
+    }
+    
+
+    #container button {
+
+        margin-top: -60%;
+        margin-left: 1%;
+        font-size: 22px;
+    }
+
+    .body-text p{
+        margin-left: 6%;
+    }
+
+    
+
+
+
+    /* ----- about me --------- */
+
+    #my-img img{
+        margin-top: -55%;
+        border-radius: 4%;
+        margin-left: 5%;
+        border: 10px solid #5a8eff;
+        box-shadow: 0 0 0px #5a8eff;
+        width: 400px;
+    }
+
+    .paragraf p {
+        margin-top: 5%;
+        width: 510px;
+        font-size: 20px;
+    }
+
+    .aboutme-table {
+        margin-top: 4%;
+        width: 500px;
+    }
+    
+    /*  -- servisdss ---------------------------- */
+
+    #servises {
+        margin-top: 8.5%;
+        background-color: #f5f5f5;
+        height: 650px;
+    }
+
+    #servise-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 5%;
+        margin-left: 3.2%;
+        gap: 10%;
+        width: 40%;
+    
+    }
+
+    #servise-cards .card{
+        width: 21rem;
+    }
+    
+
+
+/* --------------------------------dashboard ------------------------------------------- */
+
+
+
+    #icon {
+        font-size: 70px;
+        width: 250px;
+        margin-left: -93%;
+    }
+
+    .dashboard-text h3 {
+        margin-left: -55%;
+
+    }
+
+    .dashboard-text h4 {
+        margin-left: -54%;
+
+    }
+
+    .dashboard-text h5 {
+        margin-left: -54%;
+
+    }
+
+    #plus {
+        margin-left: -31%;
+
+    }
+
+
+
+
+
+/* ---- project ---------------------------------------------------- */
+
+    #projects {
+        height: 690px;
+    }
+
+    #projrct-cards {
+        width: 90%;
+        margin-left: 6.5%;
+        margin-top: 5%;
+        
+    }
+
+    #projrct-cards .card{
+        width: 20rem;
+    }
+    
+
+
+/* ----- expirens ----------------------------------- */
+
+
+    .circle-1 {
+        margin-left: 48%;
+        margin-top: -69%;
+
+    }
+
+    .circle-2 {
+        margin-left: 48%;
+        
+    }
+
+    .circle-3 {
+        margin-left: 48%;
+        
+    }
+
+    #cd-1 {
+
+        margin-left: 16%;
+        margin-top: -16%;
+
+    }
+
+    #cd-3 {
+
+        margin-left: 16%;
+        margin-top: -32%;
+
+    }
+
+    #cd-2 {
+
+        margin-left: 55%;
+        margin-top: -32%;
+
+    }
+
+    #experiance-text .experiance-text-1{
+        margin-left: 54%;
+        margin-top: 11%;
+    }
+
+    #experiance-text .experiance-text-2{
+        margin-left: 54%;
+        margin-top: -43%;
+    }
+
+    #experiance-text .experiance-text-3{
+        margin-left: 34%;
+        margin-top: 12%;
+    }
+
+
+/*  ---- hire me ------------------------------------- */
+
+
+#hire-me-box{
+    margin-top: 30%;
+
+}
+
+#hire-btn{
+    width: 0px;
+    margin-left: -2%;
+
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1440px) {
+
+    html {
+        font-size: 14px;
+    }
+
+
+
+    #main-box{
+        width: 710px;
+        height: 958.5px;
+        float: right;
+        background-color: rgb(233, 247, 252);
+    }
+
+    #circle img {
+
+        width: 690px;
+        height: 690px;
+        border-radius: 620%;
+        background-color: rgb(255, 255, 255);
+        margin-top: -68%;
+        margin-left: 48%;
+        position: relative;
+       
+
+    }
+
+
+    #container {
+
+        background-color: rgb(245, 245, 245);
+    }
+
+    .box-1 {
+
+        display: none;
+    }
+
+    .box-2 {
+
+        display: none;
+    }
+
+    .box-3 {
+
+        display: none;
+    }
+
+    .name-text {
+        position: absolute;
+        top: 39%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+    }
+
+    .name-text h4 {
+      
+        font-size: 30px;
+        margin-left: -5%;
+        margin-top: 15%;
+    }
+    
+    .name-text h2 {
+        display: none;
+    }
+    
+    #social-medias {
+
+    display: none;
+    }
+
+    .name-text h1 {
+        font-size: 65px;
+        font-family: "Concert One", sans-serif;
+        margin-left: -5%;
+        margin-top: 1%;
+    }
+    
+
+    #container button {
+
+        margin-top: -40%;
+        margin-left: 6%;
+        font-size: 22px;
+    }
+
+    .body-text p{
+        margin-left: 6%;
+    }
+
+    
+
+
+
+    /* ----- about me --------- */
+
+    #my-img img{
+        margin-top: -40%;
+        border-radius: 4%;
+        margin-left: 5%;
+        border: 10px solid #5a8eff;
+        box-shadow: 0 0 0px #5a8eff;
+        width: 500px;
+    }
+
+    .paragraf p {
+        margin-top: 5%;
+        width: 510px;
+        font-size: 20px;
+    }
+
+    .aboutme-table {
+        margin-top: 4%;
+        width: 500px;
+    }
+    
+    /*  -- servisdss ---------------------------- */
+
+    #servises {
+        margin-top: 8.5%;
+        background-color: #f5f5f5;
+        height: 650px;
+    }
+
+    #servise-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 5%;
+        margin-left: 5.2%;
+        gap: 10%;
+        width: 40%;
+    
+    }
+
+    #servise-cards .card{
+        width: 28rem;
+    }
+    
+
+
+/* --------------------------------dashboard ------------------------------------------- */
+
+
+
+    #icon {
+        font-size: 70px;
+        width: 330px;
+        margin-left: -33%;
+    }
+
+    .dashboard-text h3 {
+        margin-left: -5%;
+
+    }
+
+    .dashboard-text h4 {
+        margin-left: -10%;
+
+    }
+
+    .dashboard-text h5 {
+        margin-left: -10%;
+
+    }
+
+    #plus {
+        margin-left: 8%;
+
+    }
+
+
+
+
+
+/* ---- project ---------------------------------------------------- */
+
+    #projects {
+        height: 690px;
+    }
+
+    #projrct-cards {
+        width: 90%;
+        margin-left: 6.5%;
+        margin-top: 5%;
+        
+    }
+
+    #projrct-cards .card{
+        width: 29rem;
+    }
+    
+
+
+/* ----- expirens ----------------------------------- */
+
+
+    .circle-1 {
+        margin-left: 48%;
+        margin-top: -49%;
+
+    }
+
+    .circle-2 {
+        margin-left: 48%;
+        
+    }
+
+    .circle-3 {
+        margin-left: 48%;
+        
+    }
+
+    #cd-1 {
+
+        margin-left: 26%;
+        margin-top: -8%;
+
+    }
+
+    #cd-3 {
+
+        margin-left: 25%;
+        margin-top: -32%;
+
+    }
+
+    #cd-2 {
+
+        margin-left: 55%;
+        margin-top: -39%;
+
+    }
+
+    #experiance-text .experiance-text-1{
+        margin-left: 54%;
+        margin-top: 11%;
+    }
+
+    #experiance-text .experiance-text-2{
+        margin-left: 54%;
+        margin-top: -43%;
+    }
+
+    #experiance-text .experiance-text-3{
+        margin-left: 34%;
+        margin-top: 12%;
+    }
+
+
+/*  ---- hire me ------------------------------------- */
+
+
+#hire-me-box{
+    margin-top: 30%;
+
+}
+
+#hire-btn{
+    width: 0px;
+    margin-left: -2%;
+    
+}
+
+
+}
+
+
+
+/* @media only screen and (max-width: 850px)  { */
+    @media screen and (min-width: 700px) and (max-width: 850px) {
 
     #main-box{
         display: none;
     }
-
-    /* #container {
-        background-image: url(/Assest/wallpaperbetter.com_1536x864.jpg);
-        width: 100%;
-        height: 855.5px;
-    } */
-
-
-
 
 
     #container {
@@ -753,12 +1540,357 @@ footer{
     #circle img {
         width: 200px;
         height: 200px;
-        border-radius: 50%; /* Changed from 200% to 50% for a perfect circle */
+        border-radius: 50%; 
+        background-color: azure;
+        margin-top: 20%;
+        margin-left: 38%;
+        border: 10px solid rgb(37, 86, 247);
+        box-shadow: 100px 100px 900px rgba(1, 5, 243, 0.5);
+    }
+
+    #cover-box{
+        display: block;
+        background-color: rgba(131, 238, 252, 0.363);
+        border-radius: 5%;
+        width: 580px;
+        height: 580px;
+        margin-left: 16%;
+        margin-top: -30%;
+    }
+    
+
+    .name-text {
+        position: relative; 
+        display: block;
+    }
+    
+    .name-text h2 {
+        display: block;
+        margin-top: -37%;
+        width: 100%;
+        font-size: 40px;
+        font-weight: bold;
+        left: 54%;
+        position: absolute; 
+    }
+    
+    
+    .name-text h4 {
+   
+        display: none;
+    }
+    
+    .name-text h1 {
+        
+        display: none;
+    }
+    
+   
+    
+    .body-text {
+      
+        display: block;
+    }
+    
+    .body-text h1 {
+        position: relative;
+        font-size: 20px;
+        display: block;
+        font-size: 30px;
+        left: 56%;
+        margin-top: 3%;
+    }
+    
+    .body-text p {
+        display: block;
+        font-size: 17px;
+        width: 490px;
+        margin-left: 55%;
+        margin-top: 5%;
+    }
+    
+    #container button {
+       
+
+        display: none;
+    }
+
+    .box-1{
+        display: none;
+    }
+    .box-2{
+        display: none;
+    }
+    .box-3{
+        display: none;
+    }
+
+    #social-medias{
+        display: block;
+        margin-top: -29%;
+        margin-left: 33%;
+        gap: 50%;
+        display: flex;
+        border: none;
+    }
+
+    
+    
+/*  ----- about me ----------------------------------- */
+
+
+#my-img img{
+    margin-top: -70%;
+    width: 350px;
+    border-radius: 4%;
+    margin-left: 3.5%;
+    border: 10px solid #5a8eff;
+    box-shadow: 0 0 0px #ffffff;
+}
+
+
+.paragraf p {
+    width: 400px;
+   
+}
+
+.aboutme-table {
+    margin-top: 4%;
+    width: 400px;
+}
+
+
+/*  ---- servises ------------------------------------------- */
+
+#servises {
+    height: 650px;
+}
+
+#servise-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5%;
+    margin-left: 7%;
+    gap: 10%;
+    width: 60%;
+
+}
+
+#servise-cards .card {
+    transition: transform 0.7s ease;
+    width: 15rem;
+}
+
+
+
+
+
+/*  -- dash ---------------------- */
+
+
+#icon {
+    font-size: 50px;
+    width: 200px;
+    margin-left: -130%;
+}
+
+
+.dashboard-text h3 {
+    margin-left: -95%;
+    margin-top: -30%;
+}
+
+.dashboard-text h4 {
+    margin-left: -95%;
+    font-size: 12px;
+    margin-top: -10%;
+}
+
+.dashboard-text h5 {
+    margin-left: -95%;
+
+}
+
+#plus {
+    margin-left: -62%;
+
+}
+
+
+
+/*  -----  projects -------------------------------------------- */
+
+#projects {
+    height: 590px;
+}
+
+#projrct-cards .card{
+    width: 17rem;
+}
+
+
+#projrct-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    margin-left: 3%;
+    margin-top: 4%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#projects button {
+    margin-left: 44%;
+}
+
+
+/* ----  expiries --------------------------------------------- */
+
+
+
+.circle-1 {
+    margin-left: 47%;
+    margin-top: -85%;
+
+}
+
+.circle-2 {
+    margin-left: 47%;
+    
+}
+
+.circle-3 {
+    margin-left: 47%;
+    margin-top: 15%;
+}
+
+#cd-1 {
+
+    margin-left: 5%;
+    margin-top: -6%;
+
+}
+
+#cd-3 {
+
+    margin-left: 5%;
+    margin-top: -44%;
+
+}
+
+#cd-2 {
+
+    margin-left: 55%;
+    margin-top: -44%;
+
+}
+
+
+
+
+#experiance-text .experiance-text-1{
+    margin-left: 54%;
+    margin-top: 3%;
+}
+
+#experiance-text .experiance-text-2{
+    margin-left: 56%;
+    margin-top: -48%;
+}
+
+#experiance-text .experiance-text-3{
+    margin-left: 25%;
+    margin-top: 12%;
+}
+
+
+/*  ---- hire me ------------------------------------- */
+
+
+#hire-me-box{
+    margin-top: 50%;
+    height: 300px;
+}
+
+#hire-me-box h1 {
+    
+    left: 10%;
+ }
+  
+#hire-me-box p {
+  
+    left: 10%;
+   
+ }
+ 
+ #hire-me-box button {
+    position: relative; /* or position: absolute; */
+    top: -12%; /* Adjust this value as needed */
+    left: 69%;
+    width: 220px;
+    height: 80px;
+    font-weight: 600;
+ }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 575px) and (max-width: 600px) {
+
+    #main-box{
+        display: none;
+    }
+
+
+    #container {
+        width: 100%;
+        height: 855.5px;
+        background-image: url(/Assest/wallpaperflare.com_wallpaper\ \(17\).jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+
+
+    #circle img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%; 
         background-color: azure;
         margin-top: 32%;
         margin-left: 34%;
         border: 10px solid rgb(37, 86, 247);
-        box-shadow: 100px 100px 900px rgba(1, 5, 243, 0.5); /* Added box-shadow */
+        box-shadow: 100px 100px 900px rgba(1, 5, 243, 0.5);
     }
 
     #cover-box{
@@ -773,7 +1905,7 @@ footer{
     
 
     .name-text {
-        position: relative; /* Added position relative to the parent container */
+        position: relative; 
         display: block;
     }
     
@@ -781,32 +1913,26 @@ footer{
         display: block;
         margin-top: -55%;
         font-weight: bold;
-        left: 55%;
-        position: absolute; /* Added position absolute to the h2 element */
+        font-size: 30px;
+        left: 52%;
+        position: absolute; 
     }
     
     
     .name-text h4 {
-        /* font-size: 30px; */
+   
         display: none;
     }
     
     .name-text h1 {
-        /* font-size: 80px;
-        font-family: "Concert One", sans-serif; */
+        
         display: none;
     }
     
-    /* .name-text h2{
-        font-size: 85px;
-        font-family: "Rubik Doodle Shadow", system-ui;
-    } */
+   
     
     .body-text {
-        /* position: absolute;
-        top: 60%;
-        left: 21.1%;
-        transform: translate(-50%, -50%); */
+      
         display: block;
     }
     
@@ -827,9 +1953,7 @@ footer{
     }
     
     #container button {
-        /* margin-top: -217%;
-        margin-left: 19%;
-        font-size: 22px; */
+       
 
         display: none;
     }
@@ -847,7 +1971,7 @@ footer{
     #social-medias{
         display: block;
         margin-top: -44%;
-        margin-left: 27%;
+        margin-left: 28%;
         gap: 50%;
         display: flex;
         border: none;
@@ -896,18 +2020,21 @@ footer{
 /*  ================================== serises ====== */
 
     #servises{
-        height: 920px;
+        height: 820px;
     }
 
     #servise-cards{
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
-        
+        gap: 10%;
+        width: 30%;
     }
+
+    
 
     #servise-cards .card{
         width: 15rem;
-        margin-left: -18%;
+        margin-left: 30%;
         transition: transform 0.7s ease;
     }
 
@@ -998,6 +2125,7 @@ footer{
 
     #projrct-cards .card{
        margin-top: 5%;
+       width: 33rem;
     }
 
     #projects button {
@@ -1008,6 +2136,7 @@ footer{
 
     /* === experiance  =======  */
 
+    
 
     #container-2 {
         display: none;
@@ -1035,11 +2164,12 @@ footer{
 
     #hire-me-box{
         height: 450px;
+        margin-top: -19%;
     }
 
     #hire-me-box button {
-        position: relative; /* or position: absolute; */
-        top: 33%; /* Adjust this value as needed */
+        position: relative; 
+        top: 33%;
         left: 33%;
         width: 220px;
         height: 80px;
@@ -1060,14 +2190,6 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
 }
 
 
@@ -1092,24 +2214,8 @@ footer{
 
 
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1280px) {
     .name-text h2{
         display: none;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
