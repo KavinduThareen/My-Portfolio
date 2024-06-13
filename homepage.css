@@ -26,7 +26,7 @@ header {
     font-weight: 500;
 }
 
-.collapse:hover{
+.collapse:hover {
     font-weight: 550;
     color: rebeccapurple;
 }
@@ -68,7 +68,7 @@ header {
     margin-left: 53%;
     position: relative;
     box-shadow: 0 0 900px #5a8eff;
-    
+
 }
 
 .box-1 {
@@ -244,7 +244,7 @@ header {
 }
 
 
-#my-img img{
+#my-img img {
     margin-top: -30%;
     border-radius: 4%;
     margin-left: 11%;
@@ -264,7 +264,8 @@ header {
 
 
 #servise-cards .card {
-    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1); /* Box shadow properties */
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1);
+    /* Box shadow properties */
 }
 
 #servise-cards {
@@ -447,7 +448,7 @@ header {
     text-align: center;
 }
 
-#projrct-cards .card{
+#projrct-cards .card {
     width: 29rem;
 }
 
@@ -474,10 +475,10 @@ header {
 
 /* ================ experiance ====================================== */
 
-#container-1{
+#container-1 {
     /* background-color: #7ea7ff; */
     background-image: url(/Assest/.jpg);
-  
+
     height: 700px;
     margin-top: 6%;
 }
@@ -515,7 +516,8 @@ header {
 }
 
 #Servises-Provide-list .card {
-    box-shadow: 18px 18px 18px rgba(0, 0, 0, 0.1); /* Box shadow properties */
+    box-shadow: 18px 18px 18px rgba(0, 0, 0, 0.1);
+    /* Box shadow properties */
 }
 
 
@@ -533,8 +535,8 @@ header {
 }
 
 #Servises-Provide-list h2 {
-   font-size: 15px;
-   
+    font-size: 15px;
+
 }
 
 
@@ -547,16 +549,16 @@ header {
     margin-top: 5%;
 }
 
-#experiance h4{
+#experiance h4 {
     color: #7ea7ff;
     text-align: center;
 }
 
-#experiance h1{
+#experiance h1 {
     text-align: center;
 }
 
-.line{
+.line {
     margin-top: 3%;
     margin-left: 50%;
     border-radius: 5%;
@@ -575,7 +577,7 @@ header {
     border: 4px solid rgb(8, 4, 241);
 }
 
-.circle-1 h4{
+.circle-1 h4 {
     margin-left: 23%;
     margin-top: 15%;
     font-size: 20px;
@@ -592,7 +594,7 @@ header {
     border: 4px solid rgb(8, 4, 241);
 }
 
-.circle-2 h4{
+.circle-2 h4 {
     margin-left: 23%;
     margin-top: 15%;
     font-size: 20px;
@@ -600,7 +602,7 @@ header {
 }
 
 
-.circle-3{
+.circle-3 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -610,7 +612,7 @@ header {
     border: 4px solid rgb(8, 4, 241);
 }
 
-.circle-3 h4{
+.circle-3 h4 {
     margin-left: 23%;
     margin-top: 15%;
     font-size: 20px;
@@ -620,54 +622,69 @@ header {
 #cd-1 {
     margin-left: 28%;
     margin-top: -6%;
-    color: black; /* Initial text color */
-    background-color: transparent; /* Initial background color */
-    transition: color 0.3s ease, background-color 0.5s ease; /* Smooth transition for color and background-color */
+    color: black;
+    /* Initial text color */
+    background-color: transparent;
+    /* Initial background color */
+    transition: color 0.3s ease, background-color 0.5s ease;
+    /* Smooth transition for color and background-color */
 }
 
 #cd-1:hover {
-    color: white; /* Text color on hover */
-    background-color: rgb(59, 144, 255); /* Background color on hover */
+    color: white;
+    /* Text color on hover */
+    background-color: rgb(59, 144, 255);
+    /* Background color on hover */
 }
 
 
-#cd-2{
+#cd-2 {
     margin-left: 53%;
     margin-top: -27%;
-    color: black; /* Initial text color */
-    background-color: transparent; /* Initial background color */
+    color: black;
+    /* Initial text color */
+    background-color: transparent;
+    /* Initial background color */
     transition: color 0.3s ease, background-color 0.5s ease;
 }
+
 #cd-2:hover {
-    color: white; /* Text color on hover */
-    background-color: rgb(59, 144, 255); /* Background color on hover */
+    color: white;
+    /* Text color on hover */
+    background-color: rgb(59, 144, 255);
+    /* Background color on hover */
 }
 
 
-#cd-3{
+#cd-3 {
     margin-left: 28%;
     margin-top: -24%;
-    color: black; /* Initial text color */
-    background-color: transparent; /* Initial background color */
+    color: black;
+    /* Initial text color */
+    background-color: transparent;
+    /* Initial background color */
     transition: color 0.3s ease, background-color 0.5s ease;
 }
+
 #cd-3:hover {
-    color: white; /* Text color on hover */
-    background-color: rgb(59, 144, 255); /* Background color on hover */
+    color: white;
+    /* Text color on hover */
+    background-color: rgb(59, 144, 255);
+    /* Background color on hover */
 }
 
-#experiance-text .experiance-text-1{
+#experiance-text .experiance-text-1 {
     margin-left: 53%;
     margin-top: 3%;
 }
 
-#experiance-text .experiance-text-2{
+#experiance-text .experiance-text-2 {
     margin-left: 53%;
     margin-top: -35%;
 }
 
 
-#experiance-text .experiance-text-3{
+#experiance-text .experiance-text-3 {
     margin-left: 38%;
     margin-top: 12%;
 }
@@ -675,7 +692,7 @@ header {
 /* ======================= hire me ========================== */
 
 
-#hire-me-box{
+#hire-me-box {
     margin-top: 15%;
     width: 100%;
     height: 400px;
@@ -685,35 +702,41 @@ header {
 
 
 #hire-me-box h1 {
-    position: relative; /* or position: absolute; */
-    top: 20%; /* Adjust this value as needed */
+    position: relative;
+    /* or position: absolute; */
+    top: 20%;
+    /* Adjust this value as needed */
     left: 20%;
- }
-  
+}
+
 #hire-me-box p {
-    position: relative; /* or position: absolute; */
-    top: 29%; /* Adjust this value as needed */
+    position: relative;
+    /* or position: absolute; */
+    top: 29%;
+    /* Adjust this value as needed */
     left: 20%;
     width: 500px;
- }
- 
- #hire-me-box button {
-    position: relative; /* or position: absolute; */
-    top: -12%; /* Adjust this value as needed */
+}
+
+#hire-me-box button {
+    position: relative;
+    /* or position: absolute; */
+    top: -12%;
+    /* Adjust this value as needed */
     left: 69%;
     width: 320px;
     height: 80px;
     font-weight: 600;
- }
+}
 
 
 /*  ============ footer ========================== */
 
-footer{
-     /* margin-top: 0%; */
+footer {
+    /* margin-top: 0%; */
     background-color: #000000;
     height: 50px;
-    color: white    ;
+    color: white;
 }
 
 
@@ -733,7 +756,7 @@ footer{
 
 
 
-    #main-box{
+    #main-box {
         width: 710px;
         height: 958.5px;
         float: right;
@@ -749,7 +772,7 @@ footer{
         margin-top: -67%;
         margin-left: 53%;
         position: relative;
-       
+
 
     }
 
@@ -782,19 +805,19 @@ footer{
     }
 
     .name-text h4 {
-      
+
         font-size: 30px;
         margin-left: -12%;
         margin-top: 13%;
     }
-    
+
     .name-text h2 {
         display: none;
     }
-    
+
     #social-medias {
 
-    display: none;
+        display: none;
     }
 
     .name-text h1 {
@@ -803,7 +826,7 @@ footer{
         margin-left: -12%;
         margin-top: 13%;
     }
-    
+
 
     #container button {
 
@@ -811,13 +834,13 @@ footer{
         margin-left: 3%;
         font-size: 22px;
     }
-    
+
 
 
 
     /* ----- about me --------- */
 
-    #my-img img{
+    #my-img img {
         margin-top: -39%;
         border-radius: 4%;
         margin-left: 5%;
@@ -835,7 +858,7 @@ footer{
         margin-top: 4%;
         width: 600px;
     }
-    
+
     /*  -- servisdss ---------------------------- */
 
     #servises {
@@ -851,12 +874,12 @@ footer{
         margin-left: 3.2%;
         gap: 10%;
         width: 60%;
-    
+
     }
-    
 
 
-/* --------------------------------dashboard ------------------------------------------- */
+
+    /* --------------------------------dashboard ------------------------------------------- */
 
 
 
@@ -890,7 +913,7 @@ footer{
 
 
 
-/* ---- project ---------------------------------------------------- */
+    /* ---- project ---------------------------------------------------- */
 
     #projects {
         height: 690px;
@@ -900,16 +923,16 @@ footer{
         width: 90%;
         margin-left: 6.5%;
         margin-top: 5%;
-        
+
     }
 
-    #projrct-cards .card{
+    #projrct-cards .card {
         width: 25rem;
     }
-    
 
 
-/* ----- expirens ----------------------------------- */
+
+    /* ----- expirens ----------------------------------- */
 
 
     .circle-1 {
@@ -920,12 +943,12 @@ footer{
 
     .circle-2 {
         margin-left: 48%;
-        
+
     }
 
     .circle-3 {
         margin-left: 48%;
-        
+
     }
 
     #cd-1 {
@@ -949,29 +972,29 @@ footer{
 
     }
 
-    #experiance-text .experiance-text-1{
+    #experiance-text .experiance-text-1 {
         margin-left: 54%;
         margin-top: 3%;
     }
 
-    #experiance-text .experiance-text-2{
+    #experiance-text .experiance-text-2 {
         margin-left: 54%;
         margin-top: -39%;
     }
 
-    #experiance-text .experiance-text-3{
+    #experiance-text .experiance-text-3 {
         margin-left: 34%;
         margin-top: 12%;
     }
 
 
-/*  ---- hire me ------------------------------------- */
+    /*  ---- hire me ------------------------------------- */
 
 
-#hire-me-box{
-    margin-top: 30%;
+    #hire-me-box {
+        margin-top: 30%;
 
-}
+    }
 
 
 }
@@ -988,7 +1011,7 @@ footer{
 
 
 
-    #main-box{
+    #main-box {
         width: 710px;
         height: 958.5px;
         float: right;
@@ -1004,7 +1027,7 @@ footer{
         margin-top: -88%;
         margin-left: 48%;
         position: relative;
-       
+
 
     }
 
@@ -1037,19 +1060,19 @@ footer{
     }
 
     .name-text h4 {
-      
+
         font-size: 30px;
         margin-left: -12%;
         margin-top: 15%;
     }
-    
+
     .name-text h2 {
         display: none;
     }
-    
+
     #social-medias {
 
-    display: none;
+        display: none;
     }
 
     .name-text h1 {
@@ -1058,7 +1081,7 @@ footer{
         margin-left: -12%;
         margin-top: 1%;
     }
-    
+
 
     #container button {
 
@@ -1067,17 +1090,17 @@ footer{
         font-size: 22px;
     }
 
-    .body-text p{
+    .body-text p {
         margin-left: 6%;
     }
 
-    
+
 
 
 
     /* ----- about me --------- */
 
-    #my-img img{
+    #my-img img {
         margin-top: -55%;
         border-radius: 4%;
         margin-left: 5%;
@@ -1096,7 +1119,7 @@ footer{
         margin-top: 4%;
         width: 500px;
     }
-    
+
     /*  -- servisdss ---------------------------- */
 
     #servises {
@@ -1112,16 +1135,16 @@ footer{
         margin-left: 3.2%;
         gap: 10%;
         width: 40%;
-    
+
     }
 
-    #servise-cards .card{
+    #servise-cards .card {
         width: 21rem;
     }
-    
 
 
-/* --------------------------------dashboard ------------------------------------------- */
+
+    /* --------------------------------dashboard ------------------------------------------- */
 
 
 
@@ -1155,7 +1178,7 @@ footer{
 
 
 
-/* ---- project ---------------------------------------------------- */
+    /* ---- project ---------------------------------------------------- */
 
     #projects {
         height: 690px;
@@ -1165,16 +1188,16 @@ footer{
         width: 90%;
         margin-left: 6.5%;
         margin-top: 5%;
-        
+
     }
 
-    #projrct-cards .card{
+    #projrct-cards .card {
         width: 20rem;
     }
-    
 
 
-/* ----- expirens ----------------------------------- */
+
+    /* ----- expirens ----------------------------------- */
 
 
     .circle-1 {
@@ -1185,12 +1208,12 @@ footer{
 
     .circle-2 {
         margin-left: 48%;
-        
+
     }
 
     .circle-3 {
         margin-left: 48%;
-        
+
     }
 
     #cd-1 {
@@ -1214,35 +1237,35 @@ footer{
 
     }
 
-    #experiance-text .experiance-text-1{
+    #experiance-text .experiance-text-1 {
         margin-left: 54%;
         margin-top: 11%;
     }
 
-    #experiance-text .experiance-text-2{
+    #experiance-text .experiance-text-2 {
         margin-left: 54%;
         margin-top: -43%;
     }
 
-    #experiance-text .experiance-text-3{
+    #experiance-text .experiance-text-3 {
         margin-left: 34%;
         margin-top: 12%;
     }
 
 
-/*  ---- hire me ------------------------------------- */
+    /*  ---- hire me ------------------------------------- */
 
 
-#hire-me-box{
-    margin-top: 30%;
+    #hire-me-box {
+        margin-top: 30%;
 
-}
+    }
 
-#hire-btn{
-    width: 0px;
-    margin-left: -2%;
+    #hire-btn {
+        width: 0px;
+        margin-left: -2%;
 
-}
+    }
 
 
 }
@@ -1258,7 +1281,7 @@ footer{
 
 
 
-    #main-box{
+    #main-box {
         width: 710px;
         height: 958.5px;
         float: right;
@@ -1274,7 +1297,7 @@ footer{
         margin-top: -68%;
         margin-left: 48%;
         position: relative;
-       
+
 
     }
 
@@ -1307,19 +1330,19 @@ footer{
     }
 
     .name-text h4 {
-      
+
         font-size: 30px;
         margin-left: -5%;
         margin-top: 15%;
     }
-    
+
     .name-text h2 {
         display: none;
     }
-    
+
     #social-medias {
 
-    display: none;
+        display: none;
     }
 
     .name-text h1 {
@@ -1328,7 +1351,7 @@ footer{
         margin-left: -5%;
         margin-top: 1%;
     }
-    
+
 
     #container button {
 
@@ -1337,17 +1360,17 @@ footer{
         font-size: 22px;
     }
 
-    .body-text p{
+    .body-text p {
         margin-left: 6%;
     }
 
-    
+
 
 
 
     /* ----- about me --------- */
 
-    #my-img img{
+    #my-img img {
         margin-top: -40%;
         border-radius: 4%;
         margin-left: 5%;
@@ -1366,7 +1389,7 @@ footer{
         margin-top: 4%;
         width: 500px;
     }
-    
+
     /*  -- servisdss ---------------------------- */
 
     #servises {
@@ -1382,16 +1405,16 @@ footer{
         margin-left: 5.2%;
         gap: 10%;
         width: 40%;
-    
+
     }
 
-    #servise-cards .card{
+    #servise-cards .card {
         width: 28rem;
     }
-    
 
 
-/* --------------------------------dashboard ------------------------------------------- */
+
+    /* --------------------------------dashboard ------------------------------------------- */
 
 
 
@@ -1425,7 +1448,7 @@ footer{
 
 
 
-/* ---- project ---------------------------------------------------- */
+    /* ---- project ---------------------------------------------------- */
 
     #projects {
         height: 690px;
@@ -1435,16 +1458,16 @@ footer{
         width: 90%;
         margin-left: 6.5%;
         margin-top: 5%;
-        
+
     }
 
-    #projrct-cards .card{
+    #projrct-cards .card {
         width: 29rem;
     }
-    
 
 
-/* ----- expirens ----------------------------------- */
+
+    /* ----- expirens ----------------------------------- */
 
 
     .circle-1 {
@@ -1455,12 +1478,12 @@ footer{
 
     .circle-2 {
         margin-left: 48%;
-        
+
     }
 
     .circle-3 {
         margin-left: 48%;
-        
+
     }
 
     #cd-1 {
@@ -1484,35 +1507,35 @@ footer{
 
     }
 
-    #experiance-text .experiance-text-1{
+    #experiance-text .experiance-text-1 {
         margin-left: 54%;
         margin-top: 11%;
     }
 
-    #experiance-text .experiance-text-2{
+    #experiance-text .experiance-text-2 {
         margin-left: 54%;
         margin-top: -43%;
     }
 
-    #experiance-text .experiance-text-3{
+    #experiance-text .experiance-text-3 {
         margin-left: 34%;
         margin-top: 12%;
     }
 
 
-/*  ---- hire me ------------------------------------- */
+    /*  ---- hire me ------------------------------------- */
 
 
-#hire-me-box{
-    margin-top: 30%;
+    #hire-me-box {
+        margin-top: 30%;
 
-}
+    }
 
-#hire-btn{
-    width: 0px;
-    margin-left: -2%;
-    
-}
+    #hire-btn {
+        width: 0px;
+        margin-left: -2%;
+
+    }
 
 
 }
@@ -1520,9 +1543,9 @@ footer{
 
 
 /* @media only screen and (max-width: 850px)  { */
-    @media screen and (min-width: 700px) and (max-width: 850px) {
+@media screen and (min-width: 700px) and (max-width: 850px) {
 
-    #main-box{
+    #main-box {
         display: none;
     }
 
@@ -1534,13 +1557,13 @@ footer{
         background-size: cover;
         background-position: center;
     }
-    
+
 
 
     #circle img {
         width: 200px;
         height: 200px;
-        border-radius: 50%; 
+        border-radius: 50%;
         background-color: azure;
         margin-top: 20%;
         margin-left: 38%;
@@ -1548,7 +1571,7 @@ footer{
         box-shadow: 100px 100px 900px rgba(1, 5, 243, 0.5);
     }
 
-    #cover-box{
+    #cover-box {
         display: block;
         background-color: rgba(131, 238, 252, 0.363);
         border-radius: 5%;
@@ -1557,13 +1580,13 @@ footer{
         margin-left: 16%;
         margin-top: -30%;
     }
-    
+
 
     .name-text {
-        position: relative; 
+        position: relative;
         display: block;
     }
-    
+
     .name-text h2 {
         display: block;
         margin-top: -37%;
@@ -1571,27 +1594,27 @@ footer{
         font-size: 40px;
         font-weight: bold;
         left: 54%;
-        position: absolute; 
+        position: absolute;
     }
-    
-    
+
+
     .name-text h4 {
-   
+
         display: none;
     }
-    
+
     .name-text h1 {
-        
+
         display: none;
     }
-    
-   
-    
+
+
+
     .body-text {
-      
+
         display: block;
     }
-    
+
     .body-text h1 {
         position: relative;
         font-size: 20px;
@@ -1600,7 +1623,7 @@ footer{
         left: 56%;
         margin-top: 3%;
     }
-    
+
     .body-text p {
         display: block;
         font-size: 17px;
@@ -1608,24 +1631,26 @@ footer{
         margin-left: 55%;
         margin-top: 5%;
     }
-    
+
     #container button {
-       
+
 
         display: none;
     }
 
-    .box-1{
-        display: none;
-    }
-    .box-2{
-        display: none;
-    }
-    .box-3{
+    .box-1 {
         display: none;
     }
 
-    #social-medias{
+    .box-2 {
+        display: none;
+    }
+
+    .box-3 {
+        display: none;
+    }
+
+    #social-medias {
         display: block;
         margin-top: -29%;
         margin-left: 33%;
@@ -1634,203 +1659,205 @@ footer{
         border: none;
     }
 
-    
-    
-/*  ----- about me ----------------------------------- */
 
 
-#my-img img{
-    margin-top: -70%;
-    width: 350px;
-    border-radius: 4%;
-    margin-left: 3.5%;
-    border: 10px solid #5a8eff;
-    box-shadow: 0 0 0px #ffffff;
-}
+    /*  ----- about me ----------------------------------- */
 
 
-.paragraf p {
-    width: 400px;
-   
-}
-
-.aboutme-table {
-    margin-top: 4%;
-    width: 400px;
-}
-
-
-/*  ---- servises ------------------------------------------- */
-
-#servises {
-    height: 650px;
-}
-
-#servise-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 5%;
-    margin-left: 7%;
-    gap: 10%;
-    width: 60%;
-
-}
-
-#servise-cards .card {
-    transition: transform 0.7s ease;
-    width: 15rem;
-}
+    #my-img img {
+        margin-top: -70%;
+        width: 350px;
+        border-radius: 4%;
+        margin-left: 3.5%;
+        border: 10px solid #5a8eff;
+        box-shadow: 0 0 0px #ffffff;
+    }
 
 
+    .paragraf p {
+        width: 400px;
+
+    }
+
+    .aboutme-table {
+        margin-top: 4%;
+        width: 400px;
+    }
 
 
+    /*  ---- servises ------------------------------------------- */
 
-/*  -- dash ---------------------- */
+    #servises {
+        height: 650px;
+    }
 
+    #servise-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 5%;
+        margin-left: 7%;
+        gap: 10%;
+        width: 60%;
 
-#icon {
-    font-size: 50px;
-    width: 200px;
-    margin-left: -130%;
-}
+    }
 
-
-.dashboard-text h3 {
-    margin-left: -95%;
-    margin-top: -30%;
-}
-
-.dashboard-text h4 {
-    margin-left: -95%;
-    font-size: 12px;
-    margin-top: -10%;
-}
-
-.dashboard-text h5 {
-    margin-left: -95%;
-
-}
-
-#plus {
-    margin-left: -62%;
-
-}
-
-
-
-/*  -----  projects -------------------------------------------- */
-
-#projects {
-    height: 590px;
-}
-
-#projrct-cards .card{
-    width: 17rem;
-}
-
-
-#projrct-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 100%;
-    margin-left: 3%;
-    margin-top: 4%;
-    text-align: center;
-    cursor: pointer;
-}
-
-#projects button {
-    margin-left: 44%;
-}
-
-
-/* ----  expiries --------------------------------------------- */
-
-
-
-.circle-1 {
-    margin-left: 47%;
-    margin-top: -85%;
-
-}
-
-.circle-2 {
-    margin-left: 47%;
-    
-}
-
-.circle-3 {
-    margin-left: 47%;
-    margin-top: 15%;
-}
-
-#cd-1 {
-
-    margin-left: 5%;
-    margin-top: -6%;
-
-}
-
-#cd-3 {
-
-    margin-left: 5%;
-    margin-top: -44%;
-
-}
-
-#cd-2 {
-
-    margin-left: 55%;
-    margin-top: -44%;
-
-}
+    #servise-cards .card {
+        transition: transform 0.7s ease;
+        width: 15rem;
+    }
 
 
 
 
-#experiance-text .experiance-text-1{
-    margin-left: 54%;
-    margin-top: 3%;
-}
 
-#experiance-text .experiance-text-2{
-    margin-left: 56%;
-    margin-top: -48%;
-}
-
-#experiance-text .experiance-text-3{
-    margin-left: 25%;
-    margin-top: 12%;
-}
+    /*  -- dash ---------------------- */
 
 
-/*  ---- hire me ------------------------------------- */
+    #icon {
+        font-size: 50px;
+        width: 200px;
+        margin-left: -130%;
+    }
 
 
-#hire-me-box{
-    margin-top: 50%;
-    height: 300px;
-}
+    .dashboard-text h3 {
+        margin-left: -95%;
+        margin-top: -30%;
+    }
 
-#hire-me-box h1 {
-    
-    left: 10%;
- }
-  
-#hire-me-box p {
-  
-    left: 10%;
-   
- }
- 
- #hire-me-box button {
-    position: relative; /* or position: absolute; */
-    top: -12%; /* Adjust this value as needed */
-    left: 69%;
-    width: 220px;
-    height: 80px;
-    font-weight: 600;
- }
+    .dashboard-text h4 {
+        margin-left: -95%;
+        font-size: 12px;
+        margin-top: -10%;
+    }
+
+    .dashboard-text h5 {
+        margin-left: -95%;
+
+    }
+
+    #plus {
+        margin-left: -62%;
+
+    }
+
+
+
+    /*  -----  projects -------------------------------------------- */
+
+    #projects {
+        height: 590px;
+    }
+
+    #projrct-cards .card {
+        width: 17rem;
+    }
+
+
+    #projrct-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        margin-left: 3%;
+        margin-top: 4%;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #projects button {
+        margin-left: 44%;
+    }
+
+
+    /* ----  expiries --------------------------------------------- */
+
+
+
+    .circle-1 {
+        margin-left: 47%;
+        margin-top: -85%;
+
+    }
+
+    .circle-2 {
+        margin-left: 47%;
+
+    }
+
+    .circle-3 {
+        margin-left: 47%;
+        margin-top: 15%;
+    }
+
+    #cd-1 {
+
+        margin-left: 5%;
+        margin-top: -6%;
+
+    }
+
+    #cd-3 {
+
+        margin-left: 5%;
+        margin-top: -44%;
+
+    }
+
+    #cd-2 {
+
+        margin-left: 55%;
+        margin-top: -44%;
+
+    }
+
+
+
+
+    #experiance-text .experiance-text-1 {
+        margin-left: 54%;
+        margin-top: 3%;
+    }
+
+    #experiance-text .experiance-text-2 {
+        margin-left: 56%;
+        margin-top: -48%;
+    }
+
+    #experiance-text .experiance-text-3 {
+        margin-left: 25%;
+        margin-top: 12%;
+    }
+
+
+    /*  ---- hire me ------------------------------------- */
+
+
+    #hire-me-box {
+        margin-top: 50%;
+        height: 300px;
+    }
+
+    #hire-me-box h1 {
+
+        left: 10%;
+    }
+
+    #hire-me-box p {
+
+        left: 10%;
+
+    }
+
+    #hire-me-box button {
+        position: relative;
+        /* or position: absolute; */
+        top: -12%;
+        /* Adjust this value as needed */
+        left: 69%;
+        width: 220px;
+        height: 80px;
+        font-weight: 600;
+    }
 
 
 
@@ -1867,7 +1894,7 @@ footer{
 
 @media screen and (min-width: 575px) and (max-width: 600px) {
 
-    #main-box{
+    #main-box {
         display: none;
     }
 
@@ -1879,13 +1906,13 @@ footer{
         background-size: cover;
         background-position: center;
     }
-    
+
 
 
     #circle img {
         width: 200px;
         height: 200px;
-        border-radius: 50%; 
+        border-radius: 50%;
         background-color: azure;
         margin-top: 32%;
         margin-left: 34%;
@@ -1893,7 +1920,7 @@ footer{
         box-shadow: 100px 100px 900px rgba(1, 5, 243, 0.5);
     }
 
-    #cover-box{
+    #cover-box {
         display: block;
         background-color: rgba(131, 238, 252, 0.363);
         border-radius: 5%;
@@ -1902,40 +1929,40 @@ footer{
         margin-left: 17%;
         margin-top: -43%;
     }
-    
+
 
     .name-text {
-        position: relative; 
+        position: relative;
         display: block;
     }
-    
+
     .name-text h2 {
         display: block;
         margin-top: -55%;
         font-weight: bold;
         font-size: 30px;
         left: 52%;
-        position: absolute; 
+        position: absolute;
     }
-    
-    
+
+
     .name-text h4 {
-   
+
         display: none;
     }
-    
+
     .name-text h1 {
-        
+
         display: none;
     }
-    
-   
-    
+
+
+
     .body-text {
-      
+
         display: block;
     }
-    
+
     .body-text h1 {
         position: relative;
         font-size: 20px;
@@ -1943,7 +1970,7 @@ footer{
         left: 56%;
         margin-top: 10%;
     }
-    
+
     .body-text p {
         display: block;
         font-size: 17px;
@@ -1951,24 +1978,26 @@ footer{
         margin-left: 60%;
         margin-top: 10%;
     }
-    
+
     #container button {
-       
+
 
         display: none;
     }
 
-    .box-1{
-        display: none;
-    }
-    .box-2{
-        display: none;
-    }
-    .box-3{
+    .box-1 {
         display: none;
     }
 
-    #social-medias{
+    .box-2 {
+        display: none;
+    }
+
+    .box-3 {
+        display: none;
+    }
+
+    #social-medias {
         display: block;
         margin-top: -44%;
         margin-left: 28%;
@@ -1978,10 +2007,10 @@ footer{
     }
 
 
-/* ====  about me ================================================= */
+    /* ====  about me ================================================= */
 
 
-    #my-img{
+    #my-img {
         display: none;
     }
 
@@ -1989,50 +2018,50 @@ footer{
         margin-top: 20%;
         margin-left: -5%;
     }
-    
 
-    #about-me p{
+
+    #about-me p {
         font-size: 19px;
         width: 450px;
         text-align: center;
         margin-left: 17%;
-       
+
     }
 
 
-    #about-me h4{
+    #about-me h4 {
         font-size: 30px;
         margin-left: 39%;
     }
 
-    #about-me h1{
+    #about-me h1 {
         font-size: 50px;
         margin-left: 20%;
     }
 
-    #about-me .aboutme-table{
+    #about-me .aboutme-table {
         width: 510px;
         margin-left: 12.5%;
         margin-top: 10%;
     }
 
 
-/*  ================================== serises ====== */
+    /*  ================================== serises ====== */
 
-    #servises{
+    #servises {
         height: 820px;
     }
 
-    #servise-cards{
+    #servise-cards {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(2, 1fr);
         gap: 10%;
         width: 30%;
     }
 
-    
 
-    #servise-cards .card{
+
+    #servise-cards .card {
         width: 15rem;
         margin-left: 30%;
         transition: transform 0.7s ease;
@@ -2043,7 +2072,7 @@ footer{
     }
 
 
-/*  ======== dash board ================ */
+    /*  ======== dash board ================ */
 
     @keyframes count-up {
         from {
@@ -2077,11 +2106,11 @@ footer{
 
 
     .dashboard-text h4 {
-      display: none;
-    
+        display: none;
+
     }
 
-    
+
     .dashboard-text h5 {
 
         display: none;
@@ -2123,9 +2152,9 @@ footer{
         margin-left: 11.5%;
     }
 
-    #projrct-cards .card{
-       margin-top: 5%;
-       width: 33rem;
+    #projrct-cards .card {
+        margin-top: 5%;
+        width: 33rem;
     }
 
     #projects button {
@@ -2136,14 +2165,14 @@ footer{
 
     /* === experiance  =======  */
 
-    
+
 
     #container-2 {
         display: none;
     }
-    
-    .line{
-         display: none;
+
+    .line {
+        display: none;
     }
 
     .circle-1 {
@@ -2162,29 +2191,29 @@ footer{
 
     /* == hire me ================================ */
 
-    #hire-me-box{
+    #hire-me-box {
         height: 450px;
         margin-top: -19%;
     }
 
     #hire-me-box button {
-        position: relative; 
+        position: relative;
         top: 33%;
         left: 33%;
         width: 220px;
         height: 80px;
         font-weight: 600;
-     }
-    
-     #hire-me-box p {
-       text-align: center;
-       margin-left: -10%;
-     }
+    }
 
-     #hire-me-box h1 {
-       text-align: center;
-       margin-left: -35%;
-     }
+    #hire-me-box p {
+        text-align: center;
+        margin-left: -10%;
+    }
+
+    #hire-me-box h1 {
+        text-align: center;
+        margin-left: -35%;
+    }
 
 
 
@@ -2215,7 +2244,7 @@ footer{
 
 
 @media screen and (min-width: 1280px) {
-    .name-text h2{
+    .name-text h2 {
         display: none;
     }
 }
