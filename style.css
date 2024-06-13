@@ -2536,7 +2536,7 @@ footer {
 
 
 
-@media screen and (width: 320px) {
+@media screen and (width: 300px) {
 
     #main-box {
         display: none;
