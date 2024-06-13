@@ -1869,7 +1869,335 @@ footer {
 
 
 
+@media screen and (min-width: 425px) {
 
+    #main-box {
+        display: none;
+    }
+
+
+    #container {
+        width: 100%;
+        height: 855.5px;
+        background-image: url(/Assest/wallpaperflare.com_wallpaper\ \(17\).jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+
+
+    #circle img {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        background-color: azure;
+        margin-top: 52%;
+        margin-left: 34%;
+        border: 10px solid rgb(37, 86, 247);
+        box-shadow: 100px 100px 900px rgba(1, 5, 243, 0.5);
+    }
+
+    #cover-box {
+        display: block;
+        background-color: rgba(131, 238, 252, 0.363);
+        border-radius: 5%;
+        width: 340px;
+        height: 440px;
+        margin-left: 12%;
+        margin-top: -43%;
+    }
+
+
+    .name-text {
+        position: relative;
+        display: block;
+    }
+
+    .name-text h2 {
+        display: block;
+        margin-top: -75%;
+        font-weight: bold;
+        font-size: 30px;
+        left: 46%;
+        width: 400px;
+        position: absolute;
+    }
+
+
+    .name-text h4 {
+
+        display: none;
+    }
+
+    .name-text h1 {
+
+        display: none;
+    }
+
+
+
+    .body-text {
+
+        display: block;
+    }
+
+    .body-text h1 {
+        position: relative;
+        font-size: 20px;
+        display: block;
+        left: 45%;
+        margin-top: 4%;
+    }
+
+    .body-text p {
+        display: block;
+        font-size: 13px;
+        width: 290px;
+        margin-left: 50%;
+        margin-top: 10%;
+    }
+
+    #container button {
+
+
+        display: none;
+    }
+
+    .box-1 {
+        display: none;
+    }
+
+    .box-2 {
+        display: none;
+    }
+
+    .box-3 {
+        display: none;
+    }
+
+    #social-medias {
+        display: block;
+        margin-top: -67%;
+        margin-left: 20%;
+        gap: 50%;
+        display: flex;
+        border: none;
+    }
+
+
+    /* ====  about me ================================================= */
+
+
+    #my-img {
+        display: none;
+    }
+
+    #about-me {
+        margin-top: 20%;
+        margin-left: -5%;
+    }
+
+
+    #about-me p {
+        font-size: 19px;
+        width: 390px;
+        text-align: center;
+        margin-left: 10%;
+        
+
+    }
+
+
+    #about-me h4 {
+        font-size: 30px;
+        margin-left: 39%;
+    }
+
+    #about-me h1 {
+        font-size: 40px;
+        margin-left: 20%;
+    }
+
+    #about-me .aboutme-table {
+        width: 370px;
+        margin-left: 12.5%;
+        margin-top: 10%;
+    }
+
+
+    /*  ================================== serises ====== */
+
+    #servises {
+        height: 820px;
+    }
+
+    #servise-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10%;
+        width: 30%;
+    }
+
+
+
+    #servise-cards .card {
+        width: 13rem;
+        margin-left: 4%;
+        transition: transform 0.7s ease;
+    }
+
+    #servise-cards .card:hover {
+        transform: scale(1.1);
+    }
+
+
+    /*  ======== dash board ================ */
+
+    @keyframes count-up {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+
+    #dashboard {
+        margin-top: 100px;
+    }
+
+    #icon {
+        font-size: 50px;
+        width: 90px;
+        margin-left: -275%;
+    }
+
+
+    .dashboard-text h3 {
+        margin-left: -163%;
+        margin-top: 10%;
+
+    }
+
+
+    .dashboard-text h4 {
+        display: none;
+
+    }
+
+
+    .dashboard-text h5 {
+
+        display: none;
+
+    }
+
+    #plus {
+        margin-left: -117%;
+        font-size: 25px;
+        color: #3273ff;
+        position: relative;
+        top: -39px;
+    }
+
+    @keyframes count-up {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+    }
+
+
+    /*  === projexts ======================================= */
+
+    #projects {
+        background-color: #f5f5f5;
+        height: 1590px;
+    }
+
+    #projrct-cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 9.5%;
+    }
+
+    #projrct-cards .card {
+        margin-top: 5%;
+        width: 25rem;
+    }
+
+    #projects button {
+        margin-top: 5%;
+        margin-left: 37%;
+    }
+
+
+    /* === experiance  =======  */
+
+
+
+    #container-2 {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .circle-1 {
+        display: none;
+    }
+
+    .circle-2 {
+        display: none;
+    }
+
+    .circle-3 {
+        display: none;
+    }
+
+
+
+    /* == hire me ================================ */
+
+    #hire-me-box {
+        height: 450px;
+        margin-top: -69%;
+    }
+
+    #hire-me-box button {
+        position: relative;
+        top: 33%;
+        left: 33%;
+        width: 220px;
+        height: 80px;
+        font-weight: 600;
+    }
+
+    #hire-me-box p {
+        text-align: center;
+        margin-left: -15%;
+        width: 400px;
+    }
+
+    #hire-me-box h1 {
+        text-align: center;
+        margin-left: -39%;
+    }
+
+
+
+}
 
 
 
