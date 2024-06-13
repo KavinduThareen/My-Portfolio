@@ -2221,12 +2221,13 @@ footer {
 
 
     #circle img {
+        
         width: 160px;
         height: 160px;
         border-radius: 50%;
         background-color: azure;
         margin-top: 52%;
-        margin-left: 34%;
+        margin-left: 30%;
         border: 10px solid rgb(37, 86, 247);
         box-shadow: 100px 100px 900px rgba(1, 5, 243, 0.5);
     }
@@ -2235,9 +2236,9 @@ footer {
         display: block;
         background-color: rgba(131, 238, 252, 0.363);
         border-radius: 5%;
-        width: 340px;
+        width: 330px;
         height: 440px;
-        margin-left: 12%;
+        margin-left: 5%;
         margin-top: -43%;
     }
 
@@ -2251,8 +2252,8 @@ footer {
         display: block;
         margin-top: -75%;
         font-weight: bold;
-        font-size: 30px;
-        left: 46%;
+        font-size: 25px;
+        left: 43%;
         width: 400px;
         position: absolute;
     }
@@ -2277,17 +2278,17 @@ footer {
 
     .body-text h1 {
         position: relative;
-        font-size: 20px;
+        font-size: 15px;
         display: block;
-        left: 45%;
+        left: 46%;
         margin-top: 4%;
     }
 
     .body-text p {
         display: block;
-        font-size: 13px;
+        font-size: 15px;
         width: 290px;
-        margin-left: 50%;
+        margin-left: 35%;
         margin-top: 10%;
     }
 
@@ -2311,8 +2312,8 @@ footer {
 
     #social-medias {
         display: block;
-        margin-top: -67%;
-        margin-left: 20%;
+        margin-top: -75%;
+        margin-left: 12%;
         gap: 50%;
         display: flex;
         border: none;
