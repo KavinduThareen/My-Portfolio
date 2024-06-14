@@ -2203,7 +2203,7 @@ footer {
 
 
 
-@media screen and (width: 375px) {
+@media screen and (max-width: 375px) {
 
     #main-box {
         display: none;
